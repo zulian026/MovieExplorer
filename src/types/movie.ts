@@ -34,3 +34,11 @@ export interface Genre {
   id: number;
   name: string;
 }
+
+export interface MovieVideo {
+  id: string;
+  key: string;
+  name: string;
+  site: string;
+  type: string;
+}
